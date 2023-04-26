@@ -86,7 +86,8 @@ button {
   text-transform: uppercase;
 }
 
-.input_text {
+.task__input,
+.add-form__input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -99,7 +100,7 @@ button {
   color: #888;
 }
 
-.input_text:focus {
+.task__input:focus {
   color: #333;
 }
 
@@ -128,7 +129,7 @@ button {
   align-items: center;
 }
 
-.task__input_checkbox {
+.task__checkbox {
   margin: 0 10px;
 }
 
@@ -143,13 +144,13 @@ button {
   width: 226px;
 }
 
-.button__img_delete {
+.button__img-delete {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.button__img_delete:hover {
+.button__img-delete:hover {
   transform: rotateZ(0);
 }
 
